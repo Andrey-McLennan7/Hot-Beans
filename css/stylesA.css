@@ -1,0 +1,68 @@
+.box {
+    margin-top: 50px;
+    height: 155%;
+    margin-bottom: 50px;
+}
+.empty {
+    width: 20%;
+    float: left;
+    background-color: #20E8F3;
+}
+#Mcontainer {
+    width: 60%;
+    float: left;
+}
+#Mcontainer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Mcontainer form {
+    padding: 50px;
+}
+#Mcontainer form label {
+    display: block;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Mcontainer form input {
+    display: block;
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+#Mcontainer form input:hover {
+    box-shadow: 3px 3px 3px grey;
+    transition-duration: 0.1s;
+}
+#Mcontainer #submit {
+    width: 20%;
+    height: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #20E8F3;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 30px;
+}
+#Mcontainer #submit:hover {
+    background-color: #3695F7;
+    box-shadow: 2px 2px 2px grey;
+    transition-duration: 0.3s;
+}
+#Mcontainer form textarea {
+	width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+#Mcontainer form textarea:hover {
+    box-shadow: 3px 3px 3px grey;
+    transition-duration: 0.1s;
+}

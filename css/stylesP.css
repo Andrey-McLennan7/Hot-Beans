@@ -1,0 +1,41 @@
+.box {
+    margin-top: 50px;
+    height: 205%;
+    margin-bottom: 50px;
+}
+.empty {
+    width: 20%;
+    float: left;
+    background-color: #20E8F3;   
+}
+#Mcontainer {
+    width: 60%;
+    float: left;
+} 
+#Mcontainer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Mcontainer .employee {
+    border: 1px solid;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px grey;
+}
+#Mcontainer .employee img {
+    height: 180px;
+    margin-left: 30px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+#Mcontainer .employee h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Mcontainer .employee p {
+    font-family: 'PT Serif', serif;
+    font-size: 17px
+}

@@ -1,0 +1,65 @@
+.box {
+    margin-top: 50px;
+    height: 413%;
+    margin-bottom: 50px;
+}
+.empty {
+    width: 20%;
+    float: left;
+    background-color: #20E8F3;   
+}
+#Mcontainer {
+    width: 60%;
+    float: left;
+}
+#Mcontainer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Mcontainer .job {
+    border: 1px solid;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+#Mcontainer .job img {
+    height: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+#Mcontainer .job h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Mcontainer .job p {
+    font-family: 'PT Serif', serif;
+    font-size: 20px
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #20E8F3;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 5px 5px 5px grey;
+}
+.button a {
+    text-decoration: none;
+    color:white;
+}
+.button:hover {
+    background-color: #3695F7;
+    box-shadow: 2px 2px 2px grey;
+    transition-duration: 0.3s;
+}
+.left {
+    margin-left: 20px;
+}
